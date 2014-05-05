@@ -18,7 +18,9 @@ Usage
 * Open CopyReport and make sure it is configured correctly (inital setup done).
 * Simply copy the .jar file somewhere on your computer and start it with the correct parameters:
 
+    ```
     java -jar AutoCopyReport.jar --openlp-path /path/to/openlp/data --copyreport-path /path/to/copyreport/app --copyreport-data-path /path/to/copyreport/data --password thesecretpassword
+    ```
 
 * Edit and submit your report as usual through the CopyReport interface.
 
@@ -39,6 +41,13 @@ Known problems
   You can see that the selection works when you filter for a song in "Liedtitel", though, and the final report also
   correctly contains all the songs.
 
+Licensing
+---------
+AutoCopyReport is licensed under the terms of the GPL v2 license. The following libraries have been used and may have different licensing terms and conditions:
+* Apache Commons CLI 1.2 (Apache License 2.0), http://commons.apache.org/proper/commons-cli/
+* H2 Database 1.3.171 (H2 license, http://www.h2database.com/html/license.html) http://www.h2database.com/
+* sqlite-jdbc 3.7.2 (Apache License 2.0), https://bitbucket.org/xerial/sqlite-jdbc
+
 Credits
 -------
-AutoCopyReport was written by Christoph Fischer <chris@toph.de> for Volksmission Freudenstadt (http://open.vmfds.de).
+AutoCopyReport was written by Christoph Fischer (chris@toph.de) for Volksmission Freudenstadt (http://open.vmfds.de).
