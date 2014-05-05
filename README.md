@@ -37,9 +37,9 @@ Known problems
 
 * The current German CopyReport version (v.4.5.9.864) does not show all of your OpenLP songs under "Gemeldete Lieder". 
   You can see that the selection works when you filter for a song in "Liedtitel", though, and the final report also
-  correctly contains all the songs. (cf. #1)
+  correctly contains all the songs. (cf. [#1](/../../issues/1))
 * At the moment, AutoCopyReport always reports songs for the first license period in your CopyReport database. A workaround is to delete
-  all userdata.* files in your CopyReport data folder. You will need to go through the initial setup steps, though. (cf. #2)
+  all userdata.* files in your CopyReport data folder. You will need to go through the initial setup steps, though. (cf. [#2](/../../issues/2))
 
 Licensing
 ---------
